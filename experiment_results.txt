@@ -1,0 +1,29 @@
+ALGORITHM BATTLE: STUDENT RECORD SEARCH
+Dataset records: 40
+Hash table capacity: 67; hash function: key % 67; collision handling: linear probing
+
+TREE TRAVERSAL (INORDER - BST): 1001 1003 1006 1008 1009 1011 1013 1014 1017 1019 1021 1023 1025 1026 1028 1030 1032 1035 1038 1040 1042 1044 1047 1051 1055 1058 1060 1063 1069 1071 1074 1078 1080 1082 1086 1089 1091 1093 1095 1098 
+TREE TRAVERSAL (INORDER - AVL): 1001 1003 1006 1008 1009 1011 1013 1014 1017 1019 1021 1023 1025 1026 1028 1030 1032 1035 1038 1040 1042 1044 1047 1051 1055 1058 1060 1063 1069 1071 1074 1078 1080 1082 1086 1089 1091 1093 1095 1098 
+
+TREE HEIGHTS (levels):
+BST: 7
+AVL: 6
+
+SUCCESSFUL SEARCH (ID 1042)
+BST                      found=YES, comparisons/probes=1
+AVL                      found=YES, comparisons/probes=1
+Hashing                  found=YES, comparisons/probes=1
+
+UNSUCCESSFUL SEARCH (ID 9999)
+BST                      found=NO, comparisons/probes=4
+AVL                      found=NO, comparisons/probes=5
+Hashing                  found=NO, comparisons/probes=12
+
+INSERTION OBSERVATION:
+BST: inserted 40 records; no balancing is performed.
+AVL: inserted 40 records; rotations maintain balance.
+Hashing: inserted 40 records; collisions during insertion = 7.
+
+NOTE: Search comparisons are measured by this program for the stated keys.
+For hashing, comparisons/probes counts occupied slots checked; collisions counts
+occupied-slot conflicts encountered during insertion.
